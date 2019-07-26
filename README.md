@@ -138,6 +138,10 @@ The `AppDelegate.m` file can only have one method for `openUrl`. If you're also 
 
 - Your Xcode version is too old. Upgrade to Xcode 10.0+.
 
+5. `null is not an object (evaluating 'LoginManager.logWithPermission')` [issue](https://github.com/facebook/react-native-fbsdk/issues/607)   
+-  You have to download the latest [facebook sdk](https://github.com/facebook/facebook-objc-sdk/releases/tag/v5.2.3) because this sdk is not working and will run into errors like above
+-  Then paste it into ~/Documents/FacebookSDK 
+
 ## Usage
 
 ### [Login](https://developers.facebook.com/docs/facebook-login)
